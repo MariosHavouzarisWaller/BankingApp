@@ -5,8 +5,8 @@ public class Account {
     private long sortCode;
     private char accountType;
     private double userFunds;
-    private boolean directDebit = true; // Setting this to true just to avoid confusion
-    private boolean standingOrder = true;   // Setting this to true just to avoid confusion
+    private boolean directDebit;
+    private boolean standingOrder;
     private boolean tax;
 
     // Constructor
@@ -59,5 +59,20 @@ public class Account {
 
     public void setTax(boolean tax) {
         this.tax = tax;
+    }
+
+    public boolean isDirectDebit() {
+        return directDebit = true;
+    }
+    public void setDirectDebit(boolean directDebit) {
+        this.directDebit = directDebit;
+    }
+
+    public boolean isStandingOrder() {
+        return standingOrder = true;
+    }
+
+    public void setStandingOrder(boolean standingOrder) {
+        this.standingOrder = standingOrder;
     }
 }
