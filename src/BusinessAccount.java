@@ -21,6 +21,17 @@ public class BusinessAccount extends Account{
         this.overdraft = overdraft;
         this.loanValue = loanValue;
     }
-
+    public boolean getBusinessProof(){return businessProof;}
+    public void setBusinessProof(boolean businessProof){this.businessProof = businessProof;}
+    public String getBannedBuisness(){return bannedBuisness;}
+    public void setBannedBuisness (String bannedBuisness){this.bannedBuisness = bannedBuisness;}
+    public String getBusinessSector (){return businessSector;}
+    public void setBusinessSector(String businessSector){this.businessSector = businessSector;}
+    public boolean getChequebookReq (){return chequebookReq;}
+    public void setChequebookReq (boolean chequebookReq){this.chequebookReq = chequebookReq;}
+    public double getOverdraft() {return overdraft;}
+    public void setOverdraft(double overdraft) {this.overdraft = overdraft;}
+    public double getLoanValue() {return loanValue;}
+    public void setLoanValue(double loanValue) {this.loanValue = loanValue;}
 }
 
