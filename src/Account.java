@@ -1,5 +1,5 @@
 // This object is the Account super class
-public class Account {
+public class Account extends User {
 
     private long accountNumber;
     private long sortCode;
@@ -10,7 +10,9 @@ public class Account {
     private boolean tax;
 
     // Constructor
-    public Account(long accountNumber, long sortCode, char accountType, double userFunds, boolean directDebit, boolean standingOrder, boolean tax) {
+    public Account(long id, String photoId, String addressId, int noOfPersonalAcc, int noOfISAAcc, int noOfBusinessAcc,
+                   long accountNumber, long sortCode, char accountType, double userFunds, boolean directDebit, boolean standingOrder, boolean tax) {
+        super(id, photoId, addressId, noOfPersonalAcc, noOfISAAcc, noOfBusinessAcc);
         this.accountNumber = accountNumber;
         this.sortCode = sortCode;
         this.accountType = accountType;
@@ -20,7 +22,7 @@ public class Account {
         this.tax = tax;
     }
 
-    // Getter's and Setter's
+        // Getter's and Setter's
     public long getAccountNumber() {
         return accountNumber;
     }
