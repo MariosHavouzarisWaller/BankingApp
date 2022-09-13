@@ -1,17 +1,10 @@
 public class BusinessAccount extends Account{
-
     private boolean businessProof;
-
     private String bannedBuisness;
-
     private String businessSector;
-
     private boolean chequebookReq;
-
     private double overdraft;
-
     private double loanValue;
-
     public BusinessAccount(long accountNumber, long sortCode, char accountType, double userFunds, boolean directDebit, boolean standingOrder, boolean tax){
         super(accountNumber, sortCode, accountType, userFunds, directDebit, standingOrder, tax);
         this.businessProof = businessProof;
@@ -21,7 +14,8 @@ public class BusinessAccount extends Account{
         this.overdraft = overdraft;
         this.loanValue = loanValue;
     }
-    public boolean getBusinessProof(){return businessProof;}
+    public boolean getBusinessProof()
+    {return businessProof;}
     public void setBusinessProof(boolean businessProof){this.businessProof = businessProof;}
     public String getBannedBuisness(){return bannedBuisness;}
     public void setBannedBuisness (String bannedBuisness){this.bannedBuisness = bannedBuisness;}
