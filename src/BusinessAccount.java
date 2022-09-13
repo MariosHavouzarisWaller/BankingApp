@@ -5,6 +5,7 @@ public class BusinessAccount extends Account{
     private boolean chequebookReq;
     private double overdraft;
     private double loanValue;
+
     public BusinessAccount(long accountNumber, long sortCode, char accountType, double userFunds, boolean directDebit, boolean standingOrder, boolean tax){
         super(accountNumber, sortCode, accountType, userFunds, directDebit, standingOrder, tax);
         this.businessProof = businessProof;
