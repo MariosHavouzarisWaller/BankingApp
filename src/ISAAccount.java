@@ -1,7 +1,4 @@
 public class ISAAccount extends Account {
-    public ISAAccount(long accountNumber, long sortCode, char accountType, double userFunds, boolean directDebit, boolean standingOrder, boolean tax) {
-        super(accountNumber, sortCode, accountType, userFunds, directDebit, standingOrder, tax);
-    }
 
     private boolean cashAccount;
 
@@ -17,8 +14,8 @@ public class ISAAccount extends Account {
 
     private int ageRange;
 
-    public ISAAccount(long accountNumber, long sortCode, char accountType, double userFunds, boolean directDebit, boolean standingOrder, boolean tax, boolean cashAccount, boolean stockAccount, boolean innovativeAccount, boolean lifetimeAccount, boolean liveOverseas, double maxValue, int ageRange) {
-        super(accountNumber, sortCode, accountType, userFunds, directDebit, standingOrder, tax);
+    public ISAAccount(long id, String photoId, String addressId, int noOfPersonalAcc, int noOfISAAcc, int noOfBusinessAcc, long accountNumber, long sortCode, char accountType, double userFunds, boolean directDebit, boolean standingOrder, boolean tax, boolean cashAccount, boolean stockAccount, boolean innovativeAccount, boolean lifetimeAccount, boolean liveOverseas, double maxValue, int ageRange) {
+        super(id, photoId, addressId, noOfPersonalAcc, noOfISAAcc, noOfBusinessAcc, accountNumber, sortCode, accountType, userFunds, directDebit, standingOrder, tax);
         this.cashAccount = cashAccount;
         this.stockAccount = stockAccount;
         this.innovativeAccount = innovativeAccount;
@@ -27,6 +24,8 @@ public class ISAAccount extends Account {
         this.maxValue = maxValue;
         this.ageRange = ageRange;
     }
+
+
 
     public boolean isCashAccount() {
         return cashAccount;
