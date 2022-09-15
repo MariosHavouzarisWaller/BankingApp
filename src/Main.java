@@ -33,7 +33,6 @@ public class Main {
                 pa1.isTax() + "\nMinimum Charge: " + pa1.getMinimumCharge() + "\nDebt: " + pa1.isInDebt() + "\nCharges: " + pa1.getCharges() + "\n\n\n");
 
         // PERSONAL ACCOUNT DEFAULT DATA SECTION END
-
         //Buisness Account DEfault Data
         List baList = new ArrayList<User>();
         Scanner scan = new Scanner(System.in);
