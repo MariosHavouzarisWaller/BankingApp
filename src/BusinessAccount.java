@@ -26,7 +26,7 @@ public class BusinessAccount extends Account{
     public void setChequebookReq (boolean chequebookReq){this.chequebookReq = chequebookReq;}
     public double getOverdraft() {return overdraft;}
     public void setOverdraft(double overdraft) {this.overdraft = overdraft;}
-    public double getLoanValue() {return loanValue;}
+    public double getLoanValue() {return loanValue = 10.0;}
     public void setLoanValue(double loanValue) {this.loanValue = loanValue;}
 }
 
