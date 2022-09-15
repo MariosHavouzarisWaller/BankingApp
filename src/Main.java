@@ -32,7 +32,6 @@ public class Main {
                 pa1.getAccountType() + "\nUser Funds: " + pa1.getUserFunds() + "\nDirect Debit: " + pa1.isDirectDebit() + "\nStanding Orders: " + pa1.isStandingOrder() + "\nTax: " +
                 pa1.isTax() + "\nMinimum Charge: " + pa1.getMinimumCharge() + "\nDebt: " + pa1.isInDebt() + "\nCharges: " + pa1.getCharges() + "\n\n\n");
 
-
         // PERSONAL ACCOUNT DEFAULT DATA SECTION END
         //Buisness Account DEfault Data
         List baList = new ArrayList<User>();
