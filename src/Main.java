@@ -20,6 +20,11 @@ public class Main {
         PersonalAccount pa3 = new PersonalAccount(3, "tempPhotoId", "tempAddressId", 1,
                 2, 3, 2, 1, 'd', 5,
                 false, false, false, 5, false, 5);
+        BusinessAccount pa4 = new BuisnessAccount(4,"tempPhotoId", "tempAddressId", true, "tempBuisnessProof","tempBannedBuisness","private", true,10000,5000);
+        BusinessAccount pa5 = new BuisnessAccount(5,"tempPhotoId","tempAddressId", true, "tempBuisnessProof", "no", "private", true,15000,1200);
+        BusinessAccount pa6 = new BuisnessAccount(6,"tempPhotoId","tempAddressId", true, "tempBuisnessProof", "no", "private", true,1000,800);
+
+
         paList.add(pa1);
         paList.add(pa2);
         paList.add(pa3);
@@ -32,6 +37,5 @@ public class Main {
 
         // PERSONAL ACCOUNT DEFAULT DATA SECTION END
     }
-    //Business Account Data
 
 }

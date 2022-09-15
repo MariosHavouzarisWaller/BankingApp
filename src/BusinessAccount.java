@@ -7,7 +7,7 @@ public class BusinessAccount extends Account{
     private double loanValue;
 
     public BusinessAccount(long accountNumber, long sortCode, char accountType, double userFunds, boolean directDebit, boolean standingOrder, boolean tax){
-        super(accountNumber, sortCode, accountType, userFunds, directDebit, standingOrder, tax);
+        super(id, photoId, addressId, noOfPersonalAcc, noOfISAAcc, noOfBusinessAcc, accountNumber, sortCode, accountType, userFunds, directDebit, standingOrder, tax);
         this.businessProof = businessProof;
         this.bannedBuisness = bannedBuisness;
         this.businessSector = businessSector;
