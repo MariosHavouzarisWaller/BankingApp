@@ -1,5 +1,6 @@
 // This object is for the Personal Account abstract class
 public class PersonalAccount extends Account {
+
         private double minimumCharge;
         private boolean inDebt;
         private double charges;
