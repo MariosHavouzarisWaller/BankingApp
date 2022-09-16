@@ -22,7 +22,7 @@ public class Account extends User {
         this.tax = tax;
     }
 
-    // Getter's and Setter's
+        // Getter's and Setter's
     public long getAccountNumber() {
         return accountNumber;
     }
