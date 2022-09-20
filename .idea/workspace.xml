@@ -1,16 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="122d77ff-ad63-4a70-a7e8-add472849d61" name="Changes" comment="commit BusinessAccount.java by vidhisha patel" />
+    <list default="true" id="92eaf9bf-89b6-4cb8-9d23-4c549e9bb5df" name="Changes" comment="version control">
+      <change afterPath="$PROJECT_DIR$/.idea/BankingAppOld.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BusinessAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BusinessAccount.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Login.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="main" />
+        <entry key="$PROJECT_DIR$" value="Marios-Branch" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -18,38 +33,29 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectId" id="2EfcGAHG8yYyDQNjQkA9tijMhDK" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
-    <ConfirmationsSetting value="2" id="Add" />
-  </component>
+  <component name="ProjectId" id="2ETxSTw2uDLd2Qk2YMOEeGng5gV" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/Marios/IdeaProjects/BankingAppOld",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0"
   }
-}</component>
+}]]></component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="openjdk-18" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <option name="MAIN_CLASS_NAME" value="Main" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="JetRunConfigurationType">
-      <module name="BankingApp" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <module name="BankingApp" />
-      <option name="filePath" />
+      <module name="BankingAppOld" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -58,90 +64,69 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="122d77ff-ad63-4a70-a7e8-add472849d61" name="Changes" comment="" />
-      <created>1662989980818</created>
+      <changelist id="92eaf9bf-89b6-4cb8-9d23-4c549e9bb5df" name="Changes" comment="" />
+      <created>1662633374217</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1662989980818</updated>
-      <workItem from="1662989996598" duration="14765000" />
-      <workItem from="1663063572342" duration="393000" />
-      <workItem from="1663067950734" duration="1172000" />
-      <workItem from="1663069223066" duration="830000" />
-      <workItem from="1663070129977" duration="1427000" />
-      <workItem from="1663077576848" duration="5874000" />
-      <workItem from="1663268590247" duration="8306000" />
+      <updated>1662633374217</updated>
+      <workItem from="1662633375870" duration="6401000" />
+      <workItem from="1662649150197" duration="182000" />
+      <workItem from="1662720636564" duration="10403000" />
+      <workItem from="1662987261398" duration="5461000" />
+      <workItem from="1663067061731" duration="6251000" />
+      <workItem from="1663148868171" duration="1189000" />
+      <workItem from="1663322935588" duration="1187000" />
+      <workItem from="1663325874751" duration="163000" />
+      <workItem from="1663326052025" duration="2650000" />
+      <workItem from="1663431946204" duration="3717000" />
+      <workItem from="1663676688180" duration="10000" />
+      <workItem from="1663687192746" duration="198000" />
+      <workItem from="1663687415036" duration="12000" />
+      <workItem from="1663693259826" duration="1484000" />
     </task>
-    <task id="LOCAL-00001" summary="commit BusinessAccount.java">
-      <created>1663077775342</created>
+    <task id="LOCAL-00001" summary="Created all the separate classes">
+      <created>1662633971557</created>
       <option name="number" value="00001" />
       <option name="presentableId" value="LOCAL-00001" />
       <option name="project" value="LOCAL" />
-      <updated>1663077775342</updated>
+      <updated>1662633971558</updated>
     </task>
-    <task id="LOCAL-00002" summary="commit BusinessAccount.java">
-      <created>1663079229062</created>
+    <task id="LOCAL-00002" summary="Created Account super class">
+      <created>1662638891062</created>
       <option name="number" value="00002" />
       <option name="presentableId" value="LOCAL-00002" />
       <option name="project" value="LOCAL" />
-      <updated>1663079229062</updated>
+      <updated>1662638891062</updated>
     </task>
-    <task id="LOCAL-00003" summary="commit BusinessAccount.java">
-      <created>1663088191328</created>
+    <task id="LOCAL-00003" summary="updated with getter and setters for directdebit and standingorder">
+      <created>1662649208017</created>
       <option name="number" value="00003" />
       <option name="presentableId" value="LOCAL-00003" />
       <option name="project" value="LOCAL" />
-      <updated>1663088191328</updated>
+      <updated>1662649208017</updated>
     </task>
-    <task id="LOCAL-00004" summary="commit BusinessAccount.java by vidhisha patel">
-      <created>1663089420546</created>
+    <task id="LOCAL-00004" summary="User object set up">
+      <created>1662988710427</created>
       <option name="number" value="00004" />
       <option name="presentableId" value="LOCAL-00004" />
       <option name="project" value="LOCAL" />
-      <updated>1663089420546</updated>
+      <updated>1662988710427</updated>
     </task>
-    <task id="LOCAL-00005" summary="commit BusinessAccount.java by vidhisha patel">
-      <created>1663268761861</created>
+    <task id="LOCAL-00005" summary="Default info created">
+      <created>1663086445228</created>
       <option name="number" value="00005" />
       <option name="presentableId" value="LOCAL-00005" />
       <option name="project" value="LOCAL" />
-      <updated>1663268761861</updated>
+      <updated>1663086445228</updated>
     </task>
-    <task id="LOCAL-00006" summary="commit BusinessAccount.java by vidhisha patel">
-      <created>1663269113739</created>
+    <task id="LOCAL-00006" summary="version control">
+      <created>1663325586858</created>
       <option name="number" value="00006" />
       <option name="presentableId" value="LOCAL-00006" />
       <option name="project" value="LOCAL" />
-      <updated>1663269113739</updated>
+      <updated>1663325586858</updated>
     </task>
-    <task id="LOCAL-00007" summary="commit BusinessAccount.java by vidhisha patel">
-      <created>1663269355896</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1663269355896</updated>
-    </task>
-    <task id="LOCAL-00008" summary="commit BusinessAccount.java by vidhisha patel">
-      <created>1663274125216</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1663274125216</updated>
-    </task>
-    <task id="LOCAL-00009" summary="commit BusinessAccount.java by vidhisha patel">
-      <created>1663277027669</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1663277027669</updated>
-    </task>
-    <task id="LOCAL-00010" summary="commit BusinessAccount.java by vidhisha patel">
-      <created>1663277046281</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1663277046281</updated>
-    </task>
-    <option name="localTasksCounter" value="11" />
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -158,7 +143,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="origin/Vidhisha's-Branch" />
+                        <option value="main" />
                       </list>
                     </value>
                   </entry>
@@ -171,9 +156,22 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="commit BusinessAccount.java" />
-    <MESSAGE value="commit BusinessAccount.java by vidhisha patel" />
-    <option name="LAST_COMMIT_MESSAGE" value="commit BusinessAccount.java by vidhisha patel" />
+    <MESSAGE value="Created all the separate classes" />
+    <MESSAGE value="Created Account super class" />
+    <MESSAGE value="updated with getter and setters for directdebit and standingorder" />
+    <MESSAGE value="User object set up" />
+    <MESSAGE value="Default info created" />
+    <MESSAGE value="version control" />
+    <option name="LAST_COMMIT_MESSAGE" value="version control" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.IndexOutOfBoundsException" package="java.lang" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
